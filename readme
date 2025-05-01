@@ -1,0 +1,105 @@
+# Real-Time Hand Tracking Mouse Control 🖱️✋
+
+Welcome to the **Real-Time Hand Tracking Mouse Control** project! This Python-based system allows you to control your computer's mouse and perform actions like left-click, right-click, scroll, and drag-and-drop using hand gestures. Built using **MediaPipe**, **OpenCV**, and **pyautogui**, this project brings a new level of interactivity to your device. 🎉
+
+---
+
+## 🔑 **Key Features**:
+
+- **Smooth Mouse Control** 🖱️: Move your cursor in real-time with your index finger.
+- **Left-Click** 👆: Pinch your thumb and index finger to simulate a left-click.
+- **Right-Click** 👉: Pinch your thumb and pinky to simulate a right-click.
+- **Scroll** 🔄: Perform scrolling by making a fist.
+- **Drag-and-Drop** 🧳: Drag items by pinching your thumb and index finger.
+- **Gesture Mode** 🔄: Easily toggle between different hand gestures to control actions.
+- **Real-Time Performance** ⚡: Low-latency for smooth interactions.
+
+---
+
+## 💻 **Installation**:
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/ParthTarange/hand-tracking-mouse-control.git
+cd hand-tracking-mouse-control
+2. Install dependencies:
+bash
+Copy
+Edit
+pip install opencv-python mediapipe pyautogui
+3. (Optional) Create a Virtual Environment:
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+🚀 How to Use:
+Run the script:
+
+bash
+Copy
+Edit
+python hand_tracker.py
+Once running, your camera will activate.
+
+Control the mouse with your hand:
+
+Index Finger: Move the cursor.
+
+Thumb + Index Pinch: Left-click.
+
+Thumb + Pinky Pinch: Right-click.
+
+Fist Gesture: Scroll up or down.
+
+Pinch Thumb & Index: Drag items.
+
+Press 'q' to exit the program.
+
+🔄 Gesture Mode:
+Switch between Mouse Mode and Gesture Mode by performing specific hand gestures. Currently, this can be customized and configured to suit your needs.
+
+🛠️ Customization:
+This system is highly customizable to suit your preferences:
+
+Adjust Smoothness: Fine-tune the smoothness of the mouse movement.
+
+Gesture Actions: Add more gestures for additional functions.
+
+Keyboard Shortcuts: You can extend the functionality to include keyboard actions (like media control).
+
+📸 Demo:
+Watch this project in action:
+
+(Insert a demo gif/screenshot of your project in action)
+
+📝 License:
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it. See the full LICENSE file for more details.
+
+🤝 Contributions:
+Contributions are welcome! Fork the repository, make improvements, and create a pull request. Let's build something awesome together! ✨
+
+💬 Contact:
+Feel free to reach out if you have any questions or feedback:
+
+Author: Parth Tarange
+
+Email: parthtarange@88gmail.com
+
+GitHub: @ParthTarange
+
+Thanks for checking out this project! 🙌 Enjoy hand-controlled mouse actions! ✋
+
+yaml
+Copy
+Edit
+
+---
+
+Now you can just copy the entire block and paste it directly into your `README.md` file in VS Code. Let me know if you need any additional tweaks!
+
+
+
+
+
+
