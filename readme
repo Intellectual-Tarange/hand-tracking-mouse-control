@@ -26,20 +26,17 @@ Low-latency and smooth interactions, ensuring responsive control.
 💻 Installation Guide:
 1. Clone the repository:
 bash
-Copy
-Edit
 git clone https://github.com/ParthTarange/hand-tracking-mouse-control.git
 cd hand-tracking-mouse-control
+
 2. Install the required dependencies:
 bash
-Copy
-Edit
 pip install opencv-python mediapipe pyautogui
+
 3. (Optional) Create and activate a Virtual Environment:
 bash
-Copy
-Edit
 python -m venv venv
+
 # For Windows:
 venv\Scripts\activate
 # For macOS/Linux:
@@ -48,8 +45,7 @@ source venv/bin/activate
 Run the Python script:
 
 bash
-Copy
-Edit
+
 python hand_tracker.py
 Once running, your camera will be activated, and you can control the mouse with your hand gestures!
 
@@ -78,9 +74,6 @@ Add More Gestures: Extend gesture control to trigger additional actions, like la
 
 Keyboard Shortcuts: You can integrate keyboard actions (e.g., media control) for a fully interactive experience.
 
-📸 Demo:
-Watch this project in action:
-
 
 📝 License:
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it. For more details, see the LICENSE file.
@@ -103,6 +96,6 @@ Author: Parth Tarange
 
 Email: parthtarange@88gmail.com
 
-GitHub: @ParthTarange
+GitHub: @Intellectual-Tarange
 
 Thank you for checking out this project! 🙌 Enjoy the new world of hand-controlled mouse actions! ✋
